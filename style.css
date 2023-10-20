@@ -1,8 +1,43 @@
 body {
-  background: #eee;
+  /* background: #eee; */
+  background: white;
   padding: 0;
   margin: 0;
 }
+.text-wrapper{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  background: #04595c -webkit-gradient(linear, left top,right top, from(#077d81), to(#0f9ba0),color-stop(0.3, #448c8f)) 0 0 no-repeat;
+-webkit-background-size: 150px;
+background-size: 150px;
+color: rgba(255,255,255,0.1);
+-webkit-background-clip: text;
+animation: animate 5s infinite;
+font-size: 150px;
+font-family: bignoodletitling;
+}
+/* #034547 */
+/* #262626 */
+/* #262626 */
+@keyframes animate{
+  0%, 10%{
+    background-position: -1000px;
+  }
+  20%{
+    background-position:top left;
+  }
+
+  90%{
+    background-position:top right;
+  }
+  100%{
+    background-position: 1000px;
+  }
+}
+
 h1,
 h2 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -13,23 +48,57 @@ h2 {
   font-weight: 300;
 }
 button{
-  padding: 5px;
+  /* padding: 5px;
   cursor: pointer;
   margin: 20px;
   font-size: large;
-  transition: all 0.3s;
+  transition: all 0.3s; */
+  margin-top: 50px;
+  padding: 25px 30px;
+  background-color: #0db1d6;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 1px #03c9f4, 0 0 25px #03c3ee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
 }
 button:hover{
-  transform: translateY(-5px);
-  transition: all 0.3s;
+  /* transform: translateY(-5px);
+  transition: all 0.3s; */
+background: #06b0d6;
+color: black;
+
+  box-shadow: 0 0 5px #03c9f4, 0 0 25px #03c9f4, 0 0 50px #03c9f4, 0 0 100px #03c9f4,0 0 200px #03c9f4;
+-webkit-box-reflect:below  linear-gradient(transparent, black);
 }
 textarea{
   font-size: 20px;
+  margin-top: 50px;
+  border-radius:0 50px;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #daeaee;
+  color: rgb(1, 31, 31);
+  border-color: #012831;
+  border-style: dotted;
+  border-width: 5px;
+
 }
 strong{
   font-weight: 700;
 }
 #below{
+  margin-top: 70px;
   width: 90vw;
   line-height: 2;
-}
+  color: black;
+   font-weight: bold; 
+  font-size: 40px;
+} 
