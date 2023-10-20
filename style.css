@@ -21,6 +21,7 @@ body {
   background-size: 150px;
   color: rgba(255, 255, 255, 0.1);
   -webkit-background-clip: text;
+  background-clip: text;
   animation: animate 5s infinite;
   font-size: 60px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -51,33 +52,42 @@ h2 {
 h2 {
   font-weight: 300;
 }
+/* Enhance the styling for the text input and button */
+textarea {
+  font-size: 20px;
+  margin-top: 50px;
+  border-radius: 10px; /* Slightly round the corners */
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #daeaee;
+  color: rgb(1, 31, 31);
+  border: 2px solid #0db1d6; /* Highlight the border */
+  width: 80vw;
+}
+
 button {
-  /* padding: 5px;
-  cursor: pointer;
-  margin: 20px;
-  font-size: large;
-  transition: all 0.3s; */
   margin-top: 20px;
   padding: 15px 15px;
   background-color: #0db1d6;
   color: black;
   font-weight: bold;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px; /* Slightly round the corners */
   letter-spacing: 4px;
   overflow: hidden;
   transition: 0.5s;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  border-radius: 20px;
 }
+
 button:hover {
   transform: translateY(-5px);
   transition: all 0.3s;
-  color: black;
-  -webkit-box-reflect: below linear-gradient(transparent, black);
+  background-color: #0f9ba0; /* Slightly change color on hover */
+  color: white;
 }
+
 textarea {
   font-size: 20px;
   margin-top: 50px;
@@ -99,4 +109,8 @@ strong {
   line-height: 2;
   color: black;
   font-size: 40px;
+}
+.text-input {
+  font-size: 20px;
+  /* Add other styles here */
 }
