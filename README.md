@@ -1,6 +1,6 @@
-# Bionic Reader
+# [BionicReader](https://bionicreader.vercel.app/) - read blazingly fast!
 
-**Bionic Reader** is a simple web application that reads and formats text for faster reading by applying a bold style to the first half of each word.
+**BionicReader** is a simple web application that reads and formats text for faster reading by applying a bold style to the first half of each word.
 
 ## Contents
 
@@ -27,7 +27,7 @@ To use the Bionic Reader, follow these steps:
 
 5. Click the "SUBMIT" button.
 
-6. The application will format the text by making the first half of each word bold and display it below.
+6. The application will format the text by making the first half of each word bold and displaying it below.
 
 ## How it Works
 
@@ -43,4 +43,4 @@ You can run this application by simply opening the `index.html` file in a web br
 
 If you would like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. We welcome contributions and improvements to make this tool even more useful.
 
----
+### Show your ❤️ give this repo a ⭐
