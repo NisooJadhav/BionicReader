@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bionic Reader - Read Blazingly Fast</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <meta name="description" content="Bionic Reader - Read Blazingly Fast" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/?size=256&id=12995&format=png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
     <header>
-        <h1>Bionic Reader</h1>
+      <h1>BionicReader</h1>
     </header>
     <main>
-        <section class="text-input">
-            <h2>Paste or type your text below:</h2>
-            <textarea id="textarea" rows="10" placeholder="Enter your text here"></textarea>
-            <button id="submit-btn">SUBMIT</button>
-        </section>
-        <section class="formatted-text">
-            <h2>Formatted Text</h2>
-            <div id="formatted-paragraph"></div>
-        </section>
+      <section class="text-input">
+        <textarea
+          id="textarea"
+          rows="5"
+          placeholder="Paste or enter your text here"
+        ></textarea>
+        <button id="submit-btn" onclick="bionicRead()">SUBMIT</button>
+      </section>
+      <br />
+      <hr />
+      <section class="formatted-text">
+        <h2>Formatted Text:</h2>
+        <div id="below"></div>
+      </section>
     </main>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

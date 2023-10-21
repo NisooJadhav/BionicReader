@@ -1,7 +1,7 @@
 function bionicRead() {
   let textarea = document.getElementById("textarea");
   let paragraph = textarea.value;
-  
+
   // Check if the input is empty
   if (paragraph.trim() === "") {
     alert("Please enter some text.");
@@ -19,9 +19,11 @@ function bionicRead() {
 }
 
 // Add keyboard shortcut to trigger the function
-document.getElementById("textarea").addEventListener("keydown", function(event) {
-  if (event.key === "Enter" && !event.shiftKey) {
-    bionicRead();
-    event.preventDefault(); // Prevent the default behavior of the Enter key
-  }
-});
+document
+  .getElementById("textarea")
+  .addEventListener("keydown", function (event) {
+    if (event.key === "Enter" && !event.shiftKey) {
+      bionicRead();
+      event.preventDefault(); // Prevent the default behavior of the Enter key
+    }
+  });
