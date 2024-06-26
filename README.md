@@ -2,6 +2,12 @@
 
 **BionicReader** is a simple web application that reads and formats text for faster reading by applying a bold style to the first half of each word.
 
+![image](https://github.com/NisooJadhav/BionicReader/assets/68807845/3c708edc-4421-4493-bbe6-461b3bb666ea)
+
+Our brain can often predict a word after seeing just the first 2-3 letters, ignoring the rest. This ability can double reading speed, making it faster and more efficient. This is the advantage of bionic reading, which leverages our brain's natural prediction capabilities to enhance comprehension and speed.
+
+Want **Bionic Font** instead for day-to-day usage? [Get here ↗](https://bionic-reading.com/)
+
 ## Contents
 
 - [Usage](#usage)
